@@ -24,7 +24,7 @@
 <!--header start-->
 <div class="row header">
 <div class="col-lg-6">
-<span class="logo">Online Examination System</span></div>
+<span class="logo">Advanced Exam System</span></div>
 <div class="col-md-2">
 </div>
 <div class="col-md-4">

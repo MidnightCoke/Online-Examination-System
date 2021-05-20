@@ -35,7 +35,7 @@ $(function () {
 <div class="header">
 <div class="row">
 <div class="col-lg-6">
-<span class="logo">Online Examination System</span></div>
+<span class="logo">Advanced Exam System</span></div>
 <?php
  include_once 'dbConnection.php';
 session_start();
