@@ -21,15 +21,14 @@ function validateForm() {var y = document.forms["form"]["name"].value;	var lette
 var dotpos = x.lastIndexOf(".");if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {alert("Not a valid e-mail address.");return false;}var a = document.forms["form"]["password"].value;if(a == null || a == ""){alert("Password must be filled out");return false;}if(a.length<5 || a.length>25){alert("Passwords must be 5 to 25 characters long.");return false;}
 var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords must match.");return false;}}
 </script>
-
-
 </head>
 
-<body>
+
+<body  style="background:lightblue;">
 <div class="header">
 <div class="row">
-<div class="col-lg-6">
-<span class="logo">Online Examination System</span></div>
+<div class="col-lg-4">
+  <span class="logo">Online Examination System</span></div>
 <div class="col-md-2 col-md-offset-4">
 <a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;<span class="title1"><b>Sign In</b></span></a></div>
 <!--sign in modal start-->

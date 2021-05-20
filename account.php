@@ -24,7 +24,8 @@
 <?php
 include_once 'dbConnection.php';
 ?>
-<body>
+
+<body  style="background:lightblue;">
 <div class="header">
 <div class="row">
 <div class="col-lg-6">

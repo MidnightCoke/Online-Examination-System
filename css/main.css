@@ -3,7 +3,7 @@ body
 overflow-x:hidden;
 width:100%;
 font: 15px "Century Gothic", "Times Roman", sans-serif;
-background:#5DADE2;
+background:lightblue;
 min-height:550px;
 background-attachment:fixed;
 }
@@ -23,7 +23,7 @@ min-height:540px;
 	}
 
 .panel{
-border-color:#5DADE2;
+border-color:lightblue;
 margin:40px;
 padding:20px;
 font: 15px "Century Gothic", "Times Roman", sans-serif;

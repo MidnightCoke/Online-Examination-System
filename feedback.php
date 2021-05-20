@@ -19,8 +19,8 @@
 
 </head>
 
-<body>
 
+<body  style="background:lightblue;">
 <!--header start-->
 <div class="row header">
 <div class="col-lg-6">
