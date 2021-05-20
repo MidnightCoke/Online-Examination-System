@@ -3,7 +3,7 @@ body
 overflow-x:hidden;
 width:100%;
 font: 15px "Century Gothic", "Times Roman", sans-serif;
-background:#eee;
+background:#5DADE2;
 min-height:550px;
 background-attachment:fixed;
 }
@@ -23,7 +23,7 @@ min-height:540px;
 	}
 
 .panel{
-border-color:#eee;
+border-color:#5DADE2;
 margin:40px;
 padding:20px;
 font: 15px "Century Gothic", "Times Roman", sans-serif;
@@ -43,7 +43,7 @@ height:70px;
 {
 font-family:'typo';
 font-size:35px;
-color:#ffbb33;
+color:lightblue;
 margin:15px;
 }
 
@@ -60,7 +60,7 @@ font-size:20px;
 {
 width:90px;
 color:#202020;
-background:orange;
+background:blue;
 font-size:15px;
 height:35px;
 margin:20px;
@@ -94,7 +94,7 @@ background-color:#202020;
 .footer a
 {
 margin:25px;
-color:orange;
+color:blue;
 text-decoration:none;
 font: 15px "Century Gothic", "Times Roman", sans-serif;
 
@@ -104,7 +104,7 @@ font: 15px "Century Gothic", "Times Roman", sans-serif;
 text-decoration:none;
 color:#9acd32;
 border-top:2px solid;
-border-color:orange;
+border-color:blue;
 
 }
 
@@ -122,7 +122,7 @@ margin-top:20px;
 .log1
 {
 font: 15px 'Ubuntu', sans-serif;
-color:orange;
+color:blue;
 margin-left:10px;
 }
 
@@ -131,7 +131,7 @@ margin-left:10px;
 margin:10px;
 margin-right:60px;
 margin-left:5px;
-color:orange;
+color:blue;
 text-decoration:none;
 font-size:20px;
 font-size:15px;
@@ -140,6 +140,6 @@ font-size:15px;
 {
 color:#9acd32;
 border-top:2px solid;
-border-color:orange;
+border-color:blue;
 text-decoration:none;
 }

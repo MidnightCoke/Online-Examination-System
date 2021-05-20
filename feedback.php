@@ -47,7 +47,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
     <div class="modal-content title1">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title title1"><span style="color:orange">Sign In for Students</span></h4>
+        <h4 class="modal-title title1"><span style="color:blue">Sign In for Students</span></h4>
       </div>
       <div class="modal-body">
         <form class="form-horizontal" action="login.php?q=index.php" method="POST">
@@ -146,7 +146,7 @@ else
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developer of This System</span></h4>
+        <h4 class="modal-title" style="font-family:'typo' "><span style="color:blue">Developer of This System</span></h4>
       </div>
 	  
       <div class="modal-body">
@@ -170,7 +170,7 @@ else
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title"><span style="color:orange;font-family:'typo' ">LOG IN</span></h4>
+        <h4 class="modal-title"><span style="color:blue;font-family:'typo' ">LOG IN</span></h4>
       </div>
       <div class="modal-body title1">
 <div class="row">
