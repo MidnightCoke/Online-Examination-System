@@ -58,7 +58,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
 <div class="form-group">
   <label class="col-md-3 control-label" for="email"></label>  
   <div class="col-md-6">
-  <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
+  <input id="email" name="email" placeholder="E - mail" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -67,7 +67,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
 <div class="form-group">
   <label class="col-md-3 control-label" for="password"></label>
   <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter your Password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -100,7 +100,7 @@ else
 <div class="col-md-9">
 <!-- Text input-->
 <div class="form-group">
-  <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text"><br />    
+  <input id="name" name="name" placeholder="Name" class="form-control input-md" type="text"><br />    
    <input id="name" name="subject" placeholder="Enter subject" class="form-control input-md" type="text">    
 
 </div>
@@ -112,7 +112,7 @@ else
 <div class="col-md-9">
 <!-- Text input-->
 <div class="form-group">
-  <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">    
+  <input id="email" name="email" placeholder="E - mail" class="form-control input-md" type="email">    
  </div>
 </div>
 </div><!--End of row-->
@@ -170,7 +170,7 @@ else
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title"><span style="color:orange;font-family:'typo' ">LOGIN</span></h4>
+        <h4 class="modal-title"><span style="color:orange;font-family:'typo' ">LOG IN</span></h4>
       </div>
       <div class="modal-body title1">
 <div class="row">
@@ -178,7 +178,7 @@ else
 <div class="col-md-6">
 <form role="form" method="post" action="admin.php?q=index.php">
 <div class="form-group">
-<input type="text" name="uname" maxlength="20"  placeholder="Admin user id" class="form-control"/> 
+<input type="text" name="uname" maxlength="20"  placeholder="Teacher Mail" class="form-control"/> 
 </div>
 <div class="form-group">
 <input type="password" name="password" maxlength="15" placeholder="Password" class="form-control"/>

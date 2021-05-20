@@ -49,7 +49,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="email"></label>  
   <div class="col-md-6">
-  <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
+  <input id="email" name="email" placeholder="E - mail" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -59,7 +59,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-3 control-label" for="password"></label>
   <div class="col-md-6">
-    <input id="password" name="password" placeholder="Enter your Password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -67,7 +67,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Sign In</button>
 		</fieldset>
 </form>
       </div>
@@ -89,9 +89,10 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-12 control-label" for="name"></label>  
+<h3>Student Registration</h3>  
+<label class="col-md-12 control-label" for="name"></label>  
   <div class="col-md-12">
-  <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text">
+  <input id="name" name="name" placeholder="Name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -100,7 +101,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12 control-label" for="gender"></label>
   <div class="col-md-12">
-    <select id="gender" name="gender" placeholder="Enter your gender" class="form-control input-md" >
+    <select id="gender" name="gender" placeholder="Gender" class="form-control input-md" >
    <option value="Male">Select Gender</option>
   <option value="M">Male</option>
   <option value="F">Female</option> </select>
@@ -111,7 +112,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12 control-label" for="name"></label>  
   <div class="col-md-12">
-  <input id="college" name="college" placeholder="Enter your college name" class="form-control input-md" type="text">
+  <input id="college" name="college" placeholder="College Name" class="form-control input-md" type="text">
     
   </div>
 </div>
@@ -121,7 +122,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12 control-label title1" for="email"></label>
   <div class="col-md-12">
-    <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
+    <input id="email" name="email" placeholder="E - mail" class="form-control input-md" type="email">
     
   </div>
 </div>
@@ -130,7 +131,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12 control-label" for="mob"></label>  
   <div class="col-md-12">
-  <input id="mob" name="mob" placeholder="Enter your mobile number" class="form-control input-md" type="number">
+  <input id="mob" name="mob" placeholder="Phone Number" class="form-control input-md" type="number">
     
   </div>
 </div>
@@ -140,7 +141,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12 control-label" for="password"></label>
   <div class="col-md-12">
-    <input id="password" name="password" placeholder="Enter your password" class="form-control input-md" type="password">
+    <input id="password" name="password" placeholder="Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -148,7 +149,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="form-group">
   <label class="col-md-12control-label" for="cpassword"></label>
   <div class="col-md-12">
-    <input id="cpassword" name="cpassword" placeholder="Conform Password" class="form-control input-md" type="password">
+    <input id="cpassword" name="cpassword" placeholder="Confirm Password" class="form-control input-md" type="password">
     
   </div>
 </div>
@@ -216,7 +217,7 @@ var b = document.forms["form"]["cpassword"].value;if (a!=b){alert("Passwords mus
 <div class="col-md-6">
 <form role="form" method="post" action="admin.php?q=index.php">
 <div class="form-group">
-<input type="text" name="uname" maxlength="20"  placeholder="Admin user id" class="form-control"/> 
+<input type="text" name="uname" maxlength="20"  placeholder="Teacher Mail" class="form-control"/> 
 </div>
 <div class="form-group">
 <input type="password" name="password" maxlength="15" placeholder="Password" class="form-control"/>
