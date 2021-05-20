@@ -11,11 +11,6 @@ background-attachment:fixed;
 {
 min-height:540px;
 }
-.bg1
-{
-background:url(../image/bg.jpg);
-min-height:535px;
-}
 
 @font-face {
    font-family: 'typo';

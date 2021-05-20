@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>NETCAMP || FEEDBACK </title>
+<title> FEEDBACK </title>
 <link  rel="stylesheet" href="css/bootstrap.min.css"/>
  <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/>    
  <link rel="stylesheet" href="css/main.css">
@@ -32,7 +32,7 @@
  include_once 'dbConnection.php';
 session_start();
   if((!isset($_SESSION['email']))){
-echo '<a href="#" class="pull-right sub1 btn title3" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;Signin</a>&nbsp;';}
+echo '<a href="#" class="pull-right sub1 btn title3" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>&nbsp;Sign In</a>&nbsp;';}
 else
 {
 echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Signout</a>&nbsp;';}
@@ -47,7 +47,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
     <div class="modal-content title1">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title title1"><span style="color:orange">Log In</span></h4>
+        <h4 class="modal-title title1"><span style="color:orange">Sign In for Students</span></h4>
       </div>
       <div class="modal-body">
         <form class="form-horizontal" action="login.php?q=index.php" method="POST">
@@ -75,7 +75,7 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Log in</button>
+        <button type="submit" class="btn btn-primary">Sign in</button>
 		</fieldset>
 </form>
       </div>
@@ -86,22 +86,14 @@ echo '<a href="logout.php?q=feedback.php" class="pull-right sub1 btn title3"><sp
 
 <!--header end-->
 
-<div class="bg1">
 <div class="row">
 <div class="col-md-3"></div>
-<div class="col-md-6 panel" style="background-image:url(image/bg1.jpg); min-height:430px;">
-<h2 align="center" style="font-family:'typo'; color:#000066">FEEDBACK/REPORT A PROBLEM</h2>
+<div class="col-md-6 panel" style="min-height:430px;">
+<h2 align="center" style="font-family:'typo'; color:#000066">FEEDBACK or REPORT A PROBLEM</h2><br>
 <div style="font-size:14px">
 <?php if(@$_GET['q'])echo '<span style="font-size:18px;"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;'.@$_GET['q'].'</span>';
 else
 {echo' 
-You can send us your feedback through e-mail on the following e-mail id:<br />
-<div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-10">
-<a href="mailto:chiraggoel.53784@gmail.com" style="color:#000000">sunnygkp10@gmail.com</a><br /><br />
-</div><div class="col-md-1"></div></div>
-<p>Or you can directly submit your feedback by filling the enteries below:-</p>
 <form role="form"  method="post" action="feed.php?q=feedback.php">
 <div class="row">
 <div class="col-md-3"><b>Name:</b><br /><br /><br /><b>Subject:</b></div>
@@ -141,10 +133,7 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
 <!--Footer start-->
 <div class="row footer">
 <div class="col-md-3 box">
-<a href="http://www.netcamp.in" target="_blank">About us</a>
-</div>
-<div class="col-md-3 box">
-<a href="#" data-toggle="modal" data-target="#login">Admin Login</a></div>
+<a href="#" data-toggle="modal" data-target="#login">Teacher Login</a></div>
 <div class="col-md-3 box">
 <a href="#" data-toggle="modal" data-target="#developers">Developers</a>
 
@@ -157,20 +146,17 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developers</span></h4>
+        <h4 class="modal-title" style="font-family:'typo' "><span style="color:orange">Developer of This System</span></h4>
       </div>
 	  
       <div class="modal-body">
         <p>
 		<div class="row">
-		<div class="col-md-4">
-		 <img src="image/CAM00121.jpg" width=100 height=100 alt="Sunny Prakash Tiwari" class="img-rounded">
-		 </div>
+		
 		 <div class="col-md-5">
-		<a href="https://www.facebook.com/sunnygkp10" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on Facebook">Sunny Prakash Tiwari</a>
-		<h4 style="color:#202020; font-family:'typo' ;font-size:16px" class="title1">+917785068889</h4>
-		<h4 style="font-family:'typo' ">sunnygkp10@gmail.com</h4>
-		<h4 style="font-family:'typo' ">Kamla Nehru Institute Of Technology ,Sultanpur</h4></div></div>
+		<a href="https://www.linkedin.com/in/ceyda-mehves/" style="color:#202020; font-family:'typo' ; font-size:18px" title="Find on LinkedIn">Ceyda Mehveş Keklik</a>
+		<h4 style="font-family:'typo' ">cmehves.keklik@std.hku.edu.tr</h4>
+		<h4 style="font-family:'typo' ">Hasan Kalyoncu University</h4></div></div>
 		</p>
       </div>
     
@@ -178,7 +164,7 @@ You can send us your feedback through e-mail on the following e-mail id:<br />
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-<!--Modal for admin login-->
+<!--Modal for Teacher Login-->
 	 <div class="modal fade" id="login">
   <div class="modal-dialog">
     <div class="modal-content">
